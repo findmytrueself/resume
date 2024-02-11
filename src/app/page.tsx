@@ -29,10 +29,10 @@ export default function Home() {
             유저의 입장에서 최적의 인터페이스를 개발하고, 좋은 제품을
             벤치마킹하여 개발을 합니다.
           </p>
-          <p>소통과 협업을 중시하며, 가장 좋은 결과를 얻기 위해 노력합니다.</p>
+          <p>소통과 협업을 중시하며, 최적의 결과를 얻기 위해 노력합니다.</p>
           <p>
-            주도적으로 업무를 진행하며, 스스로 책임 질 수 있는 환경을
-            선호합니다.
+            프로젝트 단위로 담당자를 지정하여, 주도적으로 업무를 진행할 수 있는
+            환경을 선호합니다.
           </p>
         </h2>
       </section>
@@ -58,7 +58,7 @@ export default function Home() {
               유지보수를 담당.
             </p>
             <h5 className="text-xl font-medium mb-2">What did I do</h5>
-            <ul className="marker:text-sky-400 list-disc">
+            <ul className="marker:text-blue-400 list-disc">
               <li>
                 Aergo Connect 3.0, 크롬익스텐션 전용 개인지갑 개발 및 배포
               </li>
@@ -82,7 +82,7 @@ export default function Home() {
             <h5 className="text-xl font-medium mb-2">Description</h5>
             <p className="mb-2">블록체인 서비스 개발(SI)</p>
             <h5 className="text-xl font-medium mb-2">What did I do</h5>
-            <ul className="marker:text-sky-400 list-disc">
+            <ul className="marker:text-blue-400 list-disc">
               <li>
                 EVM 기반의 메인넷(Polygon, Avalanche)와 Non-EVM(Aptos, Aergo)을
                 Metamask 지갑 연동 및 개인서명과 트랜잭션 전송
@@ -107,17 +107,17 @@ export default function Home() {
       <section className="py-8 px-8 pt-0">
         <div className="border-b border-gray-400">
           <h5 className="mb-4 text-5xl max-md:text-3xl font-medium">Contact</h5>
-          <ul className="marker:text-sky-400 list-disc">
-            <li className="cursor-pointer w-0 hover:text-sky-600 hover:transition-opacity hover:underline">
+          <ul className="marker:text-blue-400 list-disc">
+            <li className="cursor-pointer w-0 hover:text-blue-600 hover:transition-opacity hover:underline">
               <a href="mailto:load1999@gmail.com">Email</a>
             </li>
-            <li className="cursor-pointer w-0 hover:text-sky-600 hover:transition-opacity hover:underline">
+            <li className="cursor-pointer w-0 hover:text-blue-600 hover:transition-opacity hover:underline">
               <a href="https://findmytrueself.github.io">Blog</a>
             </li>
-            <li className="cursor-pointer w-0 hover:text-sky-600 hover:transition-opacity hover:underline">
+            <li className="cursor-pointer w-0 hover:text-blue-600 hover:transition-opacity hover:underline">
               <a href="https://github.com/findmytrueself">Github</a>
             </li>
-            <li className="mb-8 cursor-pointer w-0 hover:text-sky-600 hover:transition-opacity hover:underline">
+            <li className="mb-8 cursor-pointer w-0 hover:text-blue-600 hover:transition-opacity hover:underline">
               <a href="https://www.linkedin.com/in/findmytrueself">LinkedIn</a>
             </li>
           </ul>
