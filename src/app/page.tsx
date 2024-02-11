@@ -42,8 +42,8 @@ export default function Home() {
           Work Experience
         </h3>
 
-        <div className="py-8 px-0 flex border-b border-gray-400">
-          <div className="basis-72 shrink-0">
+        <div className="py-8 px-0 flex max-md:flex-col border-b border-gray-400">
+          <div className="basis-72 max-md:basis-24 shrink-0">
             <h4 className="mb-1 flex text-3xl max-md:text-2xl font-medium items-end">
               Aergo <p className="text-xs ml-2">Project Member</p>
             </h4>
@@ -52,12 +52,12 @@ export default function Home() {
           </div>
 
           <div>
-            <h5 className="text-2xl font-medium mb-2">Description</h5>
+            <h5 className="text-xl font-medium mb-2">Description</h5>
             <p className="mb-2">
               아르고 블록체인을 활용하여 서비스 중인 프론트엔드 오픈소스의
               유지보수를 담당하고 있습니다.
             </p>
-            <h5 className="text-2xl font-medium mb-2">What did I do</h5>
+            <h5 className="text-xl font-medium mb-2">What did I do</h5>
             <ul className="list-disc list-inside">
               <li>
                 Aergo Connect 3.0, 크롬익스텐션 전용 개인지갑 개발 및 배포
@@ -69,8 +69,8 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="py-8 px-0 flex border-b border-gray-400">
-          <div className="basis-72 shrink-0">
+        <div className="py-8 px-0 flex max-md:flex-col border-b border-gray-400">
+          <div className="basis-72 max-md:basis-24 shrink-0">
             <h4 className="mb-1 text-3xl max-md:text-2xl font-medium">
               Blocko
             </h4>
@@ -79,9 +79,9 @@ export default function Home() {
           </div>
 
           <div>
-            <h5 className="text-2xl font-medium mb-2">Description</h5>
+            <h5 className="text-xl font-medium mb-2">Description</h5>
             <p className="mb-2">블록체인 서비스 개발(SI)</p>
-            <h5 className="text-2xl font-medium mb-2">What did I do</h5>
+            <h5 className="text-xl font-medium mb-2">What did I do</h5>
             <ul className="list-disc list-inside">
               <li>
                 EVM 기반의 메인넷(Polygon, Avalanche)와 Non-EVM(Aptos, Aergo)을
