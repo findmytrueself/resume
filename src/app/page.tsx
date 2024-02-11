@@ -15,7 +15,7 @@ export default function Home() {
       } transition ease-in-out delay-300 py-8 pb-12 m-auto max-w-[50rem] antialiased whitespace-normal`}
     >
       <section className="py-8 px-8">
-        <h1 className="mb-8 text-7xl max-md:text-4xl font-bold leading-tight">
+        <h1 className="mb-8 text-6xl max-md:text-4xl font-bold leading-tight">
           <p>안녕하세요,</p>
           <p>웹 프론트엔드 개발자</p>
           <p>임훈입니다.</p>
@@ -93,31 +93,35 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="py-8 pt-0 px-8 border-b border-gray-400">
-        <h5 className="mb-4 text-5xl max-md:text-3xl font-medium">Skills</h5>
-        <p className="text-xl">
-          #Typescript #Vue #React #Next.js #RTK #React Query
-        </p>
-        <p className="text-xl">#Ethereum #Web3 #Wagmi</p>
-        <p className="text-xl">#Chrome Extension #PWA</p>
+      <section className="py-8 px-8 pt-0">
+        <div className="border-b border-gray-400">
+          <h5 className="mb-4 text-5xl max-md:text-3xl font-medium">Skills</h5>
+          <p className="text-xl">
+            #Typescript #Vue #React #Next.js #RTK #React Query
+          </p>
+          <p className="text-xl">#Ethereum #Web3 #Wagmi</p>
+          <p className="mb-8 text-xl">#Chrome Extension #PWA</p>
+        </div>
       </section>
 
-      <section className="py-8 px-8 border-b border-gray-400">
-        <h5 className="mb-4 text-5xl max-md:text-3xl font-medium">Contact</h5>
-        <ul className="marker:text-sky-400 list-disc">
-          <li className="cursor-pointer w-0 hover:text-sky-600 hover:transition-opacity hover:underline">
-            <a href="mailto:load1999@gmail.com">Email</a>
-          </li>
-          <li className="cursor-pointer w-0 hover:text-sky-600 hover:transition-opacity hover:underline">
-            <a href="https://findmytrueself.github.io">Blog</a>
-          </li>
-          <li className="cursor-pointer w-0 hover:text-sky-600 hover:transition-opacity hover:underline">
-            <a href="https://github.com/findmytrueself">Github</a>
-          </li>
-          <li className="cursor-pointer w-0 hover:text-sky-600 hover:transition-opacity hover:underline">
-            <a href="https://www.linkedin.com/in/findmytrueself">LinkedIn</a>
-          </li>
-        </ul>
+      <section className="py-8 px-8 pt-0">
+        <div className="border-b border-gray-400">
+          <h5 className="mb-4 text-5xl max-md:text-3xl font-medium">Contact</h5>
+          <ul className="marker:text-sky-400 list-disc">
+            <li className="cursor-pointer w-0 hover:text-sky-600 hover:transition-opacity hover:underline">
+              <a href="mailto:load1999@gmail.com">Email</a>
+            </li>
+            <li className="cursor-pointer w-0 hover:text-sky-600 hover:transition-opacity hover:underline">
+              <a href="https://findmytrueself.github.io">Blog</a>
+            </li>
+            <li className="cursor-pointer w-0 hover:text-sky-600 hover:transition-opacity hover:underline">
+              <a href="https://github.com/findmytrueself">Github</a>
+            </li>
+            <li className="mb-8 cursor-pointer w-0 hover:text-sky-600 hover:transition-opacity hover:underline">
+              <a href="https://www.linkedin.com/in/findmytrueself">LinkedIn</a>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
   )
