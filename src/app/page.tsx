@@ -20,7 +20,7 @@ export default function Home() {
           <p>웹 프론트엔드 개발자</p>
           <p>임훈입니다.</p>
         </h1>
-        <h2 className="leading-normal text-4xl max-md:text-2xl">
+        <h2 className="leading-snug text-3xl max-md:text-2xl">
           <p>
             무궁무진한 웹 생태계에서, 웹을 넘은 세상을 꿈꾸며, 웹과 함께
             성장하고 있습니다.
@@ -54,11 +54,11 @@ export default function Home() {
           <div>
             <h5 className="text-xl font-medium mb-2">Description</h5>
             <p className="mb-2">
-              아르고 블록체인을 활용하여 서비스 중인 프론트엔드 오픈소스의
-              유지보수를 담당하고 있습니다.
+              아르고 블록체인에서 운영 중인 프론트엔드 오픈소스 기능 개발 및
+              유지보수를 담당.
             </p>
             <h5 className="text-xl font-medium mb-2">What did I do</h5>
-            <ul className="list-disc list-inside">
+            <ul className="marker:text-sky-400 list-disc">
               <li>
                 Aergo Connect 3.0, 크롬익스텐션 전용 개인지갑 개발 및 배포
               </li>
@@ -82,7 +82,7 @@ export default function Home() {
             <h5 className="text-xl font-medium mb-2">Description</h5>
             <p className="mb-2">블록체인 서비스 개발(SI)</p>
             <h5 className="text-xl font-medium mb-2">What did I do</h5>
-            <ul className="list-disc list-inside">
+            <ul className="marker:text-sky-400 list-disc">
               <li>
                 EVM 기반의 메인넷(Polygon, Avalanche)와 Non-EVM(Aptos, Aergo)을
                 Metamask 지갑 연동 및 개인서명과 트랜잭션 전송
@@ -93,14 +93,31 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="py-0 px-8">
-        <h5 className="mb-4 text-5xl max-md:text-3xl font-medium">
-          Tech Stack
-        </h5>
+      <section className="py-8 pt-0 px-8 border-b border-gray-400">
+        <h5 className="mb-4 text-5xl max-md:text-3xl font-medium">Skills</h5>
         <p className="text-xl">
-          #Typescript, #Vue, #React, #Next.js, #RTK, #React Query
+          #Typescript #Vue #React #Next.js #RTK #React Query
         </p>
         <p className="text-xl">#Ethereum #Web3 #Wagmi</p>
+        <p className="text-xl">#Chrome Extension #PWA</p>
+      </section>
+
+      <section className="py-8 px-8 border-b border-gray-400">
+        <h5 className="mb-4 text-5xl max-md:text-3xl font-medium">Contact</h5>
+        <ul className="marker:text-sky-400 list-disc">
+          <li className="cursor-pointer w-0 hover:text-sky-600 hover:transition-opacity hover:underline">
+            <a href="mailto:load1999@gmail.com">Email</a>
+          </li>
+          <li className="cursor-pointer w-0 hover:text-sky-600 hover:transition-opacity hover:underline">
+            <a href="https://findmytrueself.github.io">Blog</a>
+          </li>
+          <li className="cursor-pointer w-0 hover:text-sky-600 hover:transition-opacity hover:underline">
+            <a href="https://github.com/findmytrueself">Github</a>
+          </li>
+          <li className="cursor-pointer w-0 hover:text-sky-600 hover:transition-opacity hover:underline">
+            <a href="https://www.linkedin.com/in/findmytrueself">LinkedIn</a>
+          </li>
+        </ul>
       </section>
     </main>
   )
