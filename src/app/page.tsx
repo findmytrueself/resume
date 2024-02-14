@@ -96,10 +96,46 @@ export default function Home() {
       <section className="py-8 px-8 pt-0">
         <div className="border-b border-gray-400">
           <h5 className="mb-4 text-5xl max-md:text-3xl font-medium">Skills</h5>
-          <p className="text-xl">
+          {/* <p className="text-xl">
             #Typescript #Vue #React #Next.js #RTK #React Query
-          </p>
-          <p className="text-xl">#Ethereum #Web3 #Wagmi</p>
+          </p> */}
+          <h4 className="text-2xl">#Javascript</h4>
+          <ul className="py-2 marker:text-blue-400 list-disc">
+            <li>ES6이상의 최신 문법에 익숙합니다.</li>
+            <li>안정적인 개발을 위해, Typescript를 사용합니다.</li>
+            <li>비동기 방식을 이해합니다.</li>
+          </ul>
+
+          <h4 className="text-2xl">#React</h4>
+          <ul className="py-2 marker:text-blue-400 list-disc">
+            <li>React hooks와 함수형 컴포넌트를 사용하여 개발합니다.</li>
+            <li>공통 로직을 hooks로 분리하여, 사용합니다.</li>
+            <li>아토믹 디자인 패턴을 통해, UI개발을 합니다.</li>
+            <li>Jest를 사용하여 테스트코드를 작성할 수 있습니다.</li>
+          </ul>
+
+          <h4 className="text-2xl">#Next.JS</h4>
+          <ul className="py-2 marker:text-blue-400 list-disc">
+            <li>CSR과 SSR의 차이를 이해하고, 적절히 사용합니다.</li>
+            <li>
+              최신버전(v14)의 Next.JS의 컨셉을 이해하며, 앱 라우트 방식으로
+              개발합니다.
+            </li>
+            <li>아토믹 디자인 패턴을 통해, UI개발을 합니다.</li>
+            <li>Jest를 사용하여 테스트코드를 작성할 수 있습니다.</li>
+          </ul>
+
+          <h4 className="text-2xl">#Ethereum</h4>
+          <ul className="py-2 marker:text-blue-400 list-disc">
+            <li>
+              EVM 기반의 메인넷에 Web3 api로 지갑연동과 트랜잭션 전송을
+              구축했습니다.
+            </li>
+            <li>
+              Non-EVM(Aergo)을 연결하는 Metamask Snaps 개발 경험이 있습니다.
+            </li>
+          </ul>
+
           <p className="mb-8 text-xl">#Chrome Extension #PWA</p>
         </div>
       </section>
