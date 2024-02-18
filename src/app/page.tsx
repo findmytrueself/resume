@@ -1,5 +1,6 @@
 'use client'
 import { useEffect, useState } from 'react'
+import { ThemeSwitcher } from './theme/ThemeSwitcher'
 
 export default function Home() {
   const [isVisible, setIsVisible] = useState(false)
@@ -12,8 +13,9 @@ export default function Home() {
     <main
       className={`${
         isVisible ? 'opacity-100' : 'opacity-0'
-      } transition ease-in-out delay-300 py-8 pb-12 m-auto max-w-[50rem] antialiased whitespace-normal`}
+      } transition ease-in-out delay-100 py-8 pb-12 m-auto max-w-[50rem] antialiased whitespace-normal`}
     >
+      <ThemeSwitcher/>
       <section className="py-8 px-8">
         <h1 className="mb-8 text-6xl max-md:text-4xl font-bold leading-tight">
           <p>안녕하세요,</p>
@@ -125,7 +127,7 @@ export default function Home() {
             <li>Jest를 사용하여 테스트코드를 작성할 수 있습니다.</li>
           </ul>
 
-          <h4 className="text-2xl">#Ethereum</h4>
+          <h4 className="text-2xl">#Web3</h4>
           <ul className="py-2 marker:text-blue-400 list-disc">
             <li>
               EVM 기반의 메인넷에 Web3 api로 지갑연동과 트랜잭션 전송을
@@ -135,8 +137,6 @@ export default function Home() {
               Non-EVM(Aergo)을 연결하는 Metamask Snaps 개발 경험이 있습니다.
             </li>
           </ul>
-
-          <p className="mb-8 text-xl">#Chrome Extension #PWA</p>
         </div>
       </section>
 
