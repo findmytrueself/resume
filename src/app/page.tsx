@@ -98,9 +98,6 @@ export default function Home() {
       <section className="py-8 px-8 pt-0">
         <div className="border-b border-gray-400">
           <h5 className="mb-4 text-5xl max-md:text-3xl font-medium">Skills</h5>
-          {/* <p className="text-xl">
-            #Typescript #Vue #React #Next.js #RTK #React Query
-          </p> */}
           <h4 className="text-2xl">#Javascript</h4>
           <ul className="py-2 marker:text-blue-400 list-disc">
             <li>ES6이상의 최신 문법에 익숙합니다.</li>
@@ -135,6 +132,19 @@ export default function Home() {
             </li>
             <li>
               Non-EVM(Aergo)을 연결하는 Metamask Snaps 개발 경험이 있습니다.
+            </li>
+          </ul>
+
+          <h4 className="text-2xl">#3 Languages Speaker</h4>
+          <ul className="py-2 marker:text-blue-400 list-disc mb-4">
+            <li>
+              Korean - 원어민
+            </li>
+            <li>
+              English - 중상
+            </li>
+            <li>
+              Chinese - 상급
             </li>
           </ul>
         </div>
