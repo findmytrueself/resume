@@ -15,7 +15,7 @@ export default function Home() {
         isVisible ? 'opacity-100' : 'opacity-0'
       } transition ease-in-out delay-100 py-8 pb-12 m-auto max-w-[50rem] antialiased whitespace-normal`}
     >
-      <ThemeSwitcher/>
+      <ThemeSwitcher />
       <section className="py-8 px-8">
         <h1 className="mb-8 text-6xl max-md:text-4xl font-bold leading-tight">
           <p>안녕하세요,</p>
@@ -135,17 +135,11 @@ export default function Home() {
             </li>
           </ul>
 
-          <h4 className="text-2xl">#3 Languages Speaker</h4>
+          <h4 className="text-2xl">#Languages</h4>
           <ul className="py-2 marker:text-blue-400 list-disc mb-4">
-            <li>
-              Korean - 원어민
-            </li>
-            <li>
-              English - 중상
-            </li>
-            <li>
-              Chinese - 상급
-            </li>
+            <li>Korean - 원어민</li>
+            <li>English - 중급</li>
+            <li>Chinese - 상급</li>
           </ul>
         </div>
       </section>
